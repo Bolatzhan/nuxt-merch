@@ -20,7 +20,10 @@
 
 	useHead({
 		title: 'Nuxt Dojo | Merch',
-		meta: [{ name: 'description', content: 'Nuxt 3 Merch' }],
+		meta: [
+			{ name: 'description', content: 'Nuxt 3 Merch' },
+			{ property: 'og:image', content: '#' },
+		],
 	});
 </script>
 
